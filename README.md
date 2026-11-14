@@ -13,7 +13,7 @@ or more numeric variables for each level of a categorical variable using
 ## Installation
 
 Package installation can be done directly by calling:
-`devtools::install_github("joshhellm/fastmean")`
+`devtools::install_github("UBC-STAT545-F2026/assignmentB2JoshuaHellmann", ref = "0.1.0")`
 
 ## Example
 

@@ -1,4 +1,4 @@
-#' @title Calculate mean of numeric variables for each level of a categorical variable
+#' @title Calculate Numeric Mean of Categorical Levels
 #'
 #' @description
 #' Selects one categorical (or numeric variable) and one or multiple numeric columns
@@ -67,7 +67,7 @@ num_mean_categorical <- function(df, cat, ..., removenas = TRUE){
     dplyr::summarise(dplyr::across(c(...), \(x) mean(x, na.rm = removenas), .names = "mean_{.col}"))
   # calculates mean of numeric variable for the categorical group and names column mean_'columnname'
   # removes NAs based on logical value in removenas
-  # looked up sumarise across in: https://dplyr.tidyverse.org/reference/across.html
+  # looked up summarise across in: https://dplyr.tidyverse.org/reference/across.html
 
   return(mean_values)
 }

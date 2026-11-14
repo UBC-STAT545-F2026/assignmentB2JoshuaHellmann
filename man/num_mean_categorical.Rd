@@ -2,7 +2,7 @@
 % Please edit documentation in R/num_mean_categorical.R
 \name{num_mean_categorical}
 \alias{num_mean_categorical}
-\title{Calculate mean of numeric variables for each level of a categorical variable}
+\title{Calculate Numeric Mean of Categorical Levels}
 \usage{
 num_mean_categorical(df, cat, ..., removenas = TRUE)
 }
