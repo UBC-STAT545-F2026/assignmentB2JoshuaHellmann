@@ -5,6 +5,7 @@ Authors@R:
     person("Joshua", "Hellmann", , "johellm@student.ubc.ca", role = c("aut", "cre"))
 Description: This is an R package that includes a function called `num_mean_categorical`.
   The goal of fastmean is to allow a fast way to calculate the mean of one or more numeric variables for each level of a categorical variable using `num_mean_categorical`.
+License: MIT + file LICENSE
 Config/roxygen2/version: 8.1.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

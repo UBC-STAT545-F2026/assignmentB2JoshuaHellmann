@@ -24,11 +24,6 @@ The goal of fastmean is to allow a fast way to calculate the mean of one or more
 Package installation can be done directly by calling:
 `devtools::install_github("joshhellm/fastmean")`
 
-``` r
-# install.packages("pak")
-pak::pak("UBC-STAT545-F2026/assignmentB2JoshuaHellmann")
-```
-
 ## Example
 
 This is a basic example which shows you how to use `num_mean_categorical` with the `penguins` dataset from the `palmerpenguins` package. It calculates the mean flipper and bill length for each island:

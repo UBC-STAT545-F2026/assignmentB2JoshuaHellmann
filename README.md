@@ -15,11 +15,6 @@ or more numeric variables for each level of a categorical variable using
 Package installation can be done directly by calling:
 `devtools::install_github("joshhellm/fastmean")`
 
-``` r
-# install.packages("pak")
-pak::pak("UBC-STAT545-F2026/assignmentB2JoshuaHellmann")
-```
-
 ## Example
 
 This is a basic example which shows you how to use
